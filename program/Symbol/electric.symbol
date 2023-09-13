@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<symbols>
+  <group id="国家电网标准电力图元">
+    <symbol viewbox="0,0,10,12" id="Breaker_cb1_new@0" preserveAspectRatio="xMidYMid meet" title="断路器"  createDefaultConnectPoint="false" connectPoints="50 0 50 100" >
+      <rect width="10" x="0" y="0" height="12" style="fill:none;stroke-width:2" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="Breaker_cb2_new@0" preserveAspectRatio="xMidYMid meet" title="断路器1"  createDefaultConnectPoint="false" connectPoints="0 50 100 50">
+      <rect width="12" x="0" y="0" height="10" style="fill:none;stroke-width:2" />
+    </symbol>
+    <symbol viewbox="0,0,10,12" id="LoadBreakSwitch_cb1_new@0" preserveAspectRatio="xMidYMid meet" title="开关" createDefaultConnectPoint="false" connectPoints="50 0 50 100" >
+      <rect width="10" x="0" y="0" height="12" style="fill:none;stroke-width:2" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="LoadBreakSwitch_cb2_new@0" preserveAspectRatio="xMidYMid meet" title="开关1" createDefaultConnectPoint="false" connectPoints="0 50 100 50" >
+      <rect width="12" x="0" y="0" height="10" style="fill:none;stroke-width:2" />
+    </symbol>
+    <symbol viewbox="0,0,10,12" id="LoadBreakSwitch_sw1_v_new@0" preserveAspectRatio="xMidYMid meet" title="刀闸" createDefaultConnectPoint="false" connectPoints="15 0 15 100">
+      <circle fill="none" cx="5" cy="1" style="fill:none;stroke-width:1" r="1" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="0" y2="12" x1="5" x2="10" />
+      <circle fill="none" cx="5" cy="11" style="fill:none;stroke-width:1" r="1" />
+    </symbol>
+    <symbol viewbox="0,0,10,12" id="LoadBreakSwitch_sw1_v_new@1" preserveAspectRatio="xMidYMid meet" title="刀闸（闭合）" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <circle fill="none" cx="5" cy="1" style="fill:none;stroke-width:1" r="1" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="0" y2="12" x1="5" x2="5" />
+      <circle fill="none" cx="5" cy="11" style="fill:none;stroke-width:1" r="1" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="LoadBreakSwitch_sw1_h_new@0" preserveAspectRatio="xMidYMid meet" title="刀闸1" createDefaultConnectPoint="false" connectPoints="0 85 100 85">
+      <circle fill="none" cx="1" cy="5" style="fill:none;stroke-width:1" r="1" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="5" y2="0" x1="0" x2="12" />
+      <circle fill="none" cx="11" cy="5" style="fill:none;stroke-width:1" r="1" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="LoadBreakSwitch_sw1_h_new@1" preserveAspectRatio="xMidYMid meet" title="刀闸（闭合）" createDefaultConnectPoint="false" connectPoints="0 50 100 50">
+      <circle fill="none" cx="1" cy="5" style="fill:none;stroke-width:1" r="1" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="5" y2="5" x1="0" x2="12" />
+      <circle fill="none" cx="11" cy="5" style="fill:none;stroke-width:1" r="1" />
+    </symbol>
+    <symbol viewbox="0,0,10,12" id="LoadBreakSwitch_ld_v_up_new@1" preserveAspectRatio="xMidYMid meet" title="刀闸2" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <circle fill="none" cx="5" cy="1.5" style="fill:none;stroke-width:1" r="1.5" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="12" y2="0" x1="5" x2="0" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="0" y2="0" x1="0" x2="10" />
+    </symbol>
+    <symbol viewbox="0,0,10,12" id="LoadBreakSwitch_ld_v_down@1" preserveAspectRatio="xMidYMid meet" title="刀闸3" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <circle fill="none" cx="5" cy="10.5" style="fill:none;stroke-width:1" r="1.5" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="0" y2="12" x1="5" x2="0" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="12" y2="12" x1="0" x2="10" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="LoadBreakSwitch_ld_h_left_new@1" preserveAspectRatio="xMidYMid meet" title="刀闸4" createDefaultConnectPoint="false" connectPoints="0 50 100 50">
+      <circle fill="none" cx="1.5" cy="5" style="fill:none;stroke-width:1" r="1.5" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="5" y2="0" x1="12" x2="0" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="0" y2="10" x1="0" x2="0" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="LoadBreakSwitch_ld_h_right_new@1" preserveAspectRatio="xMidYMid meet" title="刀闸5" createDefaultConnectPoint="false" connectPoints="0 50 100 50">
+      <circle fill="none" cx="10.5" cy="5" style="fill:none;stroke-width:1" r="1.5" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="5" y2="0" x1="0" x2="12" />
+      <line fill="none" style="fill:none;stroke-width:1" y1="0" y2="10" x1="12" x2="12" />
+    </symbol>
+    <symbol viewbox="0,0,12,10" id="LoadBreakSwitch_fuse_h_new@1" preserveAspectRatio="xMidYMid meet" title="熔断器" createDefaultConnectPoint="false" connectPoints="0 50 100 50">
+      <rect width="12" x="0" y="0" height="10" style="fill:none;stroke-width:2" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="5" y2="5" x1="0" x2="12" />
+    </symbol>
+    <symbol viewbox="0,0,10,12" id="LoadBreakSwitch_fuse_v_new@1" preserveAspectRatio="xMidYMid meet" title="熔断器1" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <rect width="10" x="0" y="0" height="12" style="fill:none;stroke-width:2" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="0" y2="12" x1="5" x2="5" />
+    </symbol>
+    <symbol viewbox="0,0,10,10" id="GroundPoint_down_new" preserveAspectRatio="xMidYMid meet" title="接地" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <line fill="none" style="fill:none;stroke-width:2" y1="0" y2="3" x1="5" x2="5" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="3" y2="3" x1="0" x2="10" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="6" y2="6" x1="2.5" x2="7.5" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="10" y2="10" x1="4" x2="6" />
+    </symbol>
+    <symbol viewbox="0,0,10,10" id="GroundPoint_up_new" preserveAspectRatio="xMidYMid meet" title="接地1" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <line fill="none" style="fill:none;stroke-width:2" y1="10" y2="6" x1="5" x2="5" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="6" y2="6" x1="0" x2="10" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="3" y2="3" x1="2.5" x2="7.5" />
+      <line fill="none" style="fill:none;stroke-width:2" y1="0" y2="0" x1="4" x2="6" />
+    </symbol>
+    <symbol viewbox="0,0,12,18" id="Connection_Transformer1_new@0" preserveAspectRatio="xMidYMid meet" title="变压器" createDefaultConnectPoint="false" connectPoints="50 0 50 100">
+      <circle fill="none" cx="6" cy="6" style="fill:none;stroke-width:1" r="6" />
+      <circle fill="none" cx="6" cy="12" style="fill:none;stroke-width:1" r="6" />
+    </symbol>
+    <symbol viewbox="0,0,18,12" id="Connection_Transformer_l_new@0" preserveAspectRatio="xMidYMid meet" title="变压器1" createDefaultConnectPoint="false" connectPoints="0 50 100 50">
+      <circle fill="none" cx="6" cy="6" style="fill:none;stroke-width:1" r="6" />
+      <circle fill="none" cx="12" cy="6" style="fill:none;stroke-width:1" r="6" />
+    </symbol>
+    <symbol id="bus" title="总线" appendMode="directappend">
+      <rect x="0" y="0" width="50" height="4" createDefaultConnectPoint="false"/>
+    </symbol>
+    <symbol id="bus1" title="总线1" appendMode="directappend">
+      <rect x="0" y="0" width="4" height="50" createDefaultConnectPoint="false"/>
+    </symbol>
+    <symbol id="bus1" title="带标记文本框（下）" appendMode="directappend">
+      <rect x="0" y="0" width="100" height="60" createDefaultConnectPoint="false">
+        <textBlock y="101%" vertical-align="top" wrap="nowrap" fill="none" stroke="none">标题</textBlock>
+      </rect>
+    </symbol>
+    <symbol id="bus1" title="带标记文本框（上）" appendMode="directappend">
+      <rect x="0" y="0" width="100" height="60" createDefaultConnectPoint="false">
+        <textBlock y="-101%" vertical-align="bottom" wrap="nowrap" fill="none" stroke="none">标题</textBlock>
+      </rect>
+    </symbol>
+    <symbol id="bus1" title="带标记文本框（左）" appendMode="directappend">
+      <rect x="0" y="0" width="100" height="60" createDefaultConnectPoint="false">
+        <textBlock x="-101%" text-anchor="end" wrap="nowrap" fill="none" stroke="none">标题</textBlock>
+      </rect>
+    </symbol>
+    <symbol id="bus1" title="带标记文本框（右）" appendMode="directappend">
+      <rect x="0" y="0" width="100" height="60" createDefaultConnectPoint="false">
+        <textBlock x="101%" text-anchor="start" wrap="nowrap" fill="none" stroke="none">标题</textBlock>
+      </rect>
+    </symbol>
+    <connect title="连接线" type="dynamic" x1="0" y1="0" x2="100" y2="50"/>
+  </group>
+</symbols>
