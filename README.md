@@ -1,4 +1,4 @@
-# VectorControl
+![demo3](https://github.com/holoyangpeng/VectorControl/assets/114057336/f8665675-0361-4601-8a48-477984dc473e)# VectorControl
 
 VectorControl是一个C#开发的矢量图形开发组件，实现了目前主流的矢量图形编辑软件所提供的的大部分功能，可用于组态、建模、工控、仿真以及其他需要使用图形渲染和编辑的开发场景。以SVG文件作为底层格式，可以重用市面上主流图形软件生成的SVG文件进行开发。  
 VectorControl第一版大概写于05年左右，当时以闭源的形式提供，最后一次更新大约在14年左右。但想着或许可作为图形开发中的他山之石，遂开源。  
@@ -18,11 +18,10 @@ VectorControl
 ├── YP.SymbolDesigner         //图元设计器，同时也是使用Canvas组件二次开发的实例，通过Canvas组件实现了一个标准的矢量图形编辑环境  
   
 运行程序可以打开解决方案后编译运行SymbolDesigner项目。SymbolDesigner提供了几个简单实例，分别展示了如何使用VectorContol开发电路、电网、流程图、组态以及地图等。  
-  
-![demo1](https://github.com/holoyangpeng/VectorControl/assets/114057336/1d549afc-802f-43b6-9db2-38aa31546fc5)
-![demo2](https://github.com/holoyangpeng/VectorControl/assets/114057336/8951da6b-6849-47e7-9515-a1e5a1c74879)
-![demo3](https://github.com/holoyangpeng/VectorControl/assets/114057336/73c1a1c0-a733-4858-89e9-b05bfd03e5d1)
-![demo4](https://github.com/holoyangpeng/VectorControl/assets/114057336/4430a63e-0cff-494d-9bad-9b5d96a41014)
-![demo5](https://github.com/holoyangpeng/VectorControl/assets/114057336/d77a70f7-18d4-4ad1-b4c8-d960a3723925)
-![demo6](https://github.com/holoyangpeng/VectorControl/assets/114057336/9c892625-1e1b-4117-858d-1fe5152d0739)
+![demo1](https://github.com/holoyangpeng/VectorControl/assets/114057336/9f3c911f-d9e6-4d5f-b898-768caf168427)
+![demo2](https://github.com/holoyangpeng/VectorControl/assets/114057336/5787d635-e4e6-4d00-bbd6-0392e1034670)
+!![demo4](https://github.com/holoyangpeng/VectorControl/assets/114057336/0755b73e-d8d9-4290-92ae-3f7b52841d2f)
+![demo3](https://github.com/holoyangpeng/VectorControl/assets/114057336/240da646-26dd-4df6-b095-0a7a2432240c)
+![demo5](https://github.com/holoyangpeng/VectorControl/assets/114057336/2db7c683-ca04-4f51-a1da-c0c897207db0)
+![demo6](https://github.com/holoyangpeng/VectorControl/assets/114057336/5ef6d04e-a508-4ee0-9efa-d5ddf7f3f9ab)
 
