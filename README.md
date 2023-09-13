@@ -1,4 +1,4 @@
-![demo3](https://github.com/holoyangpeng/VectorControl/assets/114057336/f8665675-0361-4601-8a48-477984dc473e)# VectorControl
+# VectorControl
 
 VectorControl是一个C#开发的矢量图形开发组件，实现了目前主流的矢量图形编辑软件所提供的的大部分功能，可用于组态、建模、工控、仿真以及其他需要使用图形渲染和编辑的开发场景。以SVG文件作为底层格式，可以重用市面上主流图形软件生成的SVG文件进行开发。  
 VectorControl第一版大概写于05年左右，当时以闭源的形式提供，最后一次更新大约在14年左右。但想着或许可作为图形开发中的他山之石，遂开源。  
