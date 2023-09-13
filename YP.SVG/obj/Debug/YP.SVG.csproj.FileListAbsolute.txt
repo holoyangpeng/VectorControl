@@ -1,7 +1,0 @@
-D:\code\VectorControl-git\VectorControl\YP.SVG\bin\Debug\YP.SVG.dll
-D:\code\VectorControl-git\VectorControl\YP.SVG\bin\Debug\YP.SVG.pdb
-D:\code\VectorControl-git\VectorControl\YP.SVG\bin\Debug\YP.CSS.dll
-D:\code\VectorControl-git\VectorControl\YP.SVG\bin\Debug\YP.CSS.pdb
-D:\code\VectorControl-git\VectorControl\YP.SVG\obj\Debug\YP.SVG.csprojResolveAssemblyReference.cache
-D:\code\VectorControl-git\VectorControl\YP.SVG\obj\Debug\YP.SVG.dll
-D:\code\VectorControl-git\VectorControl\YP.SVG\obj\Debug\YP.SVG.pdb
