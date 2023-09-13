@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{52B97158-55B1-4E40-833C-CD99AD38FCB6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YP.VectorControl</RootNamespace>
+    <AssemblyName>YP.VectorControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clipboard\ClipboardObject.cs" />
+    <Compile Include="Converter\GridConverter.cs" />
+    <Compile Include="Converter\GuideConverter.cs" />
+    <Compile Include="Converter\MarginConverter.cs" />
+    <Compile Include="Converter\RuleConverter.cs" />
+    <Compile Include="Converter\SVGElementConverter.cs" />
+    <Compile Include="Forms\Cursors.cs" />
+    <Compile Include="Design\ActionEditor.cs" />
+    <Compile Include="Design\ArrowEditor.cs" />
+    <Compile Include="Design\BaseEditor.cs" />
+    <Compile Include="Design\DropDownEditor.cs" />
+    <Compile Include="Design\FileEditor.cs" />
+    <Compile Include="Design\FontEditor.cs" />
+    <Compile Include="Design\GridEditor.cs" />
+    <Compile Include="Design\GuideEditor.cs" />
+    <Compile Include="Design\HatchEditor.cs" />
+    <Compile Include="Design\ImageEditor.cs" />
+    <Compile Include="Design\LabelTextEditor.cs" />
+    <Compile Include="Design\ListFontSize.cs" />
+    <Compile Include="Design\ListHatchStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\ModalEditor.cs" />
+    <Compile Include="Design\NumberEditor.cs" />
+    <Compile Include="Design\strokestyleeditor.cs" />
+    <Compile Include="Design\StrokeWidthEditor.cs" />
+    <Compile Include="Forms\ActionSetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportImageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExportSymbolDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GridSetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GuideSetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DisposeBase.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Forms\EventHandler.cs" />
+    <Compile Include="Operation\BezierSplineOperation.cs" />
+    <Compile Include="Operation\ConnectorOperation.cs" />
+    <Compile Include="Operation\DragDropEventHandler.cs" />
+    <Compile Include="Operation\LabelText\Action.cs" />
+    <Compile Include="Operation\LabelText\Caret.cs" />
+    <Compile Include="Operation\LabelText\CaretKey.cs" />
+    <Compile Include="Operation\LabelText\CaretUndo.cs" />
+    <Compile Include="Operation\LabelText\DeleteUndo.cs" />
+    <Compile Include="Operation\LabelText\InputKey.cs" />
+    <Compile Include="Operation\LabelText\InsertUndo.cs" />
+    <Compile Include="Operation\LabelText\LabelTextOperation.cs" />
+    <Compile Include="Operation\LabelText\Selection.cs" />
+    <Compile Include="Operation\NodeOperation.cs" />
+    <Compile Include="Operation\Operation.cs" />
+    <Compile Include="Operation\PolyOperation.cs" />
+    <Compile Include="Operation\SelectTransformOperation.cs" />
+    <Compile Include="Operation\ShapeOperation.cs" />
+    <Compile Include="Operation\Text\Action.cs" />
+    <Compile Include="Operation\Text\Caret.cs" />
+    <Compile Include="Operation\Text\CaretKey.cs" />
+    <Compile Include="Operation\Text\CaretUndo.cs" />
+    <Compile Include="Operation\Text\Ime.cs" />
+    <Compile Include="Operation\Text\InfoPos.cs" />
+    <Compile Include="Operation\Text\InputKey.cs" />
+    <Compile Include="Operation\Text\Selection.cs" />
+    <Compile Include="Operation\Text\SelectKey.cs" />
+    <Compile Include="Operation\Text\TextEditor.cs" />
+    <Compile Include="Operation\Text\TextOperation.cs" />
+    <Compile Include="Operation\ViewOperation.cs" />
+    <Compile Include="Forms\Operator.cs" />
+    <Compile Include="Forms\PrintDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Arrow.cs" />
+    <Compile Include="Forms\ArrowSelector.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorSelectorHelper.cs" />
+    <Compile Include="Forms\ComboColors.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\IColorSelector.cs" />
+    <Compile Include="Forms\IGroup.cs" />
+    <Compile Include="Forms\ListColors.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListFontName.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListStrokeStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListStrokeWidth.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\OutlookBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\PopouWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ShapeDocument.cs" />
+    <Compile Include="Forms\ShapeGroup.cs" />
+    <Compile Include="Forms\ShapeSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\SymbolSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Struct.cs" />
+    <Compile Include="Canvas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ThumbnailView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Win32.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Design\ListHatchStyle.resx">
+      <DependentUpon>ListHatchStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ActionSetupDialog.resx">
+      <DependentUpon>ActionSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialog.resx">
+      <DependentUpon>Dialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportImageDialog.resx">
+      <DependentUpon>ExportImageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExportSymbolDialog.resx">
+      <DependentUpon>ExportSymbolDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GridSetupDialog.resx">
+      <DependentUpon>GridSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GuideSetupDialog.resx">
+      <DependentUpon>GuideSetupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PrintDialog.resx">
+      <DependentUpon>PrintDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ArrowSelector.resx">
+      <DependentUpon>ArrowSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ListStrokeWidth.resx">
+      <DependentUpon>ListStrokeWidth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OutlookBar.resx">
+      <DependentUpon>OutlookBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PopouWindow.resx">
+      <DependentUpon>PopouWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Canvas.resx">
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ThumbnailView.resx">
+      <DependentUpon>ThumbnailView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\Cursor\AddControl.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Anchor.cur" />
+    <EmbeddedResource Include="Resource\Cursor\AnchorMove.cur" />
+    <EmbeddedResource Include="Resource\Cursor\AreaSelect.cur" />
+    <EmbeddedResource Include="Resource\Cursor\CCWCornerScale.cur" />
+    <EmbeddedResource Include="Resource\Cursor\CenterPoint.cur" />
+    <EmbeddedResource Include="Resource\Cursor\ChangeR.cur" />
+    <EmbeddedResource Include="Resource\Cursor\ColorPicker.cur" />
+    <EmbeddedResource Include="Resource\Cursor\ColorTranslate.cur" />
+    <EmbeddedResource Include="Resource\Cursor\CWCornerScale.cur" />
+    <EmbeddedResource Include="Resource\Cursor\DecreaseView.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Drag.cur" />
+    <EmbeddedResource Include="Resource\Cursor\DragInfo.cur" />
+    <EmbeddedResource Include="Resource\Cursor\GradientTransform.cur" />
+    <EmbeddedResource Include="Resource\Cursor\HGuide.cur" />
+    <EmbeddedResource Include="Resource\Cursor\HScale.cur" />
+    <EmbeddedResource Include="Resource\Cursor\IncreaseView.cur" />
+    <EmbeddedResource Include="Resource\Cursor\inkbottle.cur" />
+    <EmbeddedResource Include="Resource\Cursor\movepath.cur" />
+    <EmbeddedResource Include="Resource\Cursor\MoveRect.cur" />
+    <EmbeddedResource Include="Resource\Cursor\MoveRoam.cur" />
+    <EmbeddedResource Include="Resource\Cursor\NoView.cur" />
+    <EmbeddedResource Include="Resource\Cursor\paintbottle.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Pen.cur" />
+    <EmbeddedResource Include="Resource\Cursor\PenAdd.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Pencil.cur" />
+    <EmbeddedResource Include="Resource\Cursor\PenClose.cur" />
+    <EmbeddedResource Include="Resource\Cursor\PenDel.cur" />
+    <EmbeddedResource Include="Resource\Cursor\PenDraw.cur" />
+    <EmbeddedResource Include="Resource\Cursor\PenEnd.cur" />
+    <EmbeddedResource Include="Resource\Cursor\polyaddDraw.cur" />
+    <EmbeddedResource Include="Resource\Cursor\polydelDraw.cur" />
+    <EmbeddedResource Include="Resource\Cursor\polydraw.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Roam.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Rotate.cur" />
+    <EmbeddedResource Include="Resource\Cursor\RotateColor.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Select.cur" />
+    <EmbeddedResource Include="Resource\Cursor\ShapeDraw.cur" />
+    <EmbeddedResource Include="Resource\Cursor\SkewX.cur" />
+    <EmbeddedResource Include="Resource\Cursor\SkewxAngle.cur" />
+    <EmbeddedResource Include="Resource\Cursor\SkewY.cur" />
+    <EmbeddedResource Include="Resource\Cursor\SkewYAngle.cur" />
+    <EmbeddedResource Include="Resource\Cursor\Subpath.cur" />
+    <EmbeddedResource Include="Resource\Cursor\SubpathDrag.cur" />
+    <EmbeddedResource Include="Resource\Cursor\TextDraw.cur" />
+    <EmbeddedResource Include="Resource\Cursor\VGuide.cur" />
+    <EmbeddedResource Include="Resource\Cursor\VScale.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\Document\arrow.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YP.CSS\YP.CSS.csproj">
+      <Project>{9a5f28bc-54f6-44ff-b84a-49d58313a9e7}</Project>
+      <Name>YP.CSS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YP.SVG\YP.SVG.csproj">
+      <Project>{d72a7356-387b-4549-ade9-1af15c76a82a}</Project>
+      <Name>YP.SVG</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

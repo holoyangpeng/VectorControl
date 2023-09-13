@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd"[]>
+<symbols>
+	<group id="Commonly Used Blocks">
+  <symbol id="BusCreator" title="Bus Creator" createDefaultConnectPoint="false" connectPoints="0 20 0 80 100 50" appendMode="directAppend">
+		<rect x="149" y="99" width="7" height="52" stroke="#000000" fill="#000000" font-family="Microsoft YaHei" font-size="8" />
+		<rect x="165" y="115" width="5" height="10" stroke="none" fill="#FFFFFF"  transform="matrix(0.9999998,0,0,0.9999998,-15,4.999998)" font-family="Microsoft YaHei" font-size="8" />
+		<line x1="148.918" y1="123.5857" x2="156.1402" y2="123.5857" stroke="#000000" font-family="Microsoft YaHei" font-size="8" />
+		<line x1="148.8871" y1="126.4422" x2="156.1094" y2="126.4422" stroke="#000000" font-family="Microsoft YaHei" font-size="8" />
+	</symbol>
+  <symbol id="BusSelector" title="Bus Selector" createDefaultConnectPoint="false" connectPoints="0 50 100 20 100 80" appendMode="directAppend">
+		<rect x="149" y="99" width="7" height="52" stroke="#000000" fill="#000000" font-family="Microsoft YaHei" font-size="8" />
+		<rect x="165" y="115" width="5" height="10" stroke="none" fill="#FFFFFF"  transform="matrix(0.9999998,0,0,0.9999998,-15,4.999998)" font-family="Microsoft YaHei" font-size="8" />
+		<line x1="148.918" y1="123.5857" x2="156.1402" y2="123.5857" stroke="#000000" font-family="Microsoft YaHei" font-size="8" />
+		<line x1="148.8871" y1="126.4422" x2="156.1094" y2="126.4422" stroke="#000000" font-family="Microsoft YaHei" font-size="8" />
+	</symbol>
+  <symbol id="Constant" title="Constant" createDefaultConnectPoint="false" connectPoints="100 50" label="Constant" appendMode="directAppend">
+    <rect x="174" y="100" width="40" height="40" stroke="#000000" fill="#FFFFFF" font-family="Microsoft YaHei" font-size="8" text-anchor="center">
+      <textBlock>1</textBlock>
+    </rect>
+  </symbol>
+    <symbol id="DataTypeConversion" title="Data Type Conversion" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="Data Type Conversion" appendMode="directAppend">
+    <rect x="191" y="203" width="95" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" font-family="Microsoft YaHei" font-size="8">
+      <textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" font-size="8">Convert</textBlock>
+      </rect>
+  </symbol>
+  <symbol id="Demux" title="Demux" createDefaultConnectPoint="false" connectPoints="0 50 100 20 100 80">
+		<rect x="149" y="99" width="7" height="52" stroke="#000000" fill="#000000" font-family="Microsoft YaHei" font-size="8" />
+	</symbol>
+    <symbol id="Discrete-TimeIntegrator" title="Discrete-Time Integrator" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="Discrete-Time Integrator" appendMode="directAppend">
+		<rect x="174" y="100" width="40" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" font-family="Microsoft YaHei" font-size="8">
+    </rect>
+		<line x1="178" y1="120" x2="210" y2="120" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1,0,0,1,-1,-1.086182)">
+			<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" font-weight="normal" font-size="8">K Ts
+			z-1</textBlock>
+		</line>
+	</symbol>
+    <symbol id="Gain" title="Gain" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="Gain" appendMode="directAppend">
+    <polygon points="450 293,409 316,409 269" fill-rule="evenodd" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.8099999,0,0,0.7914899,9.70998,-25.74418)"  font-family="Microsoft YaHei" font-size="8">
+		<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" font-size="8">1</textBlock>
+	</polygon>
+</symbol>
+      <symbol id="Ground" title="Ground" createDefaultConnectPoint="false" connectPoints="100 50" label="Ground">
+<rect x="421" y="203" width="37.2" height="37.2" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle"  font-family="Microsoft YaHei" font-size="8"/>
+		<line x1="426.9759" y1="223" x2="452.0238" y2="223.2" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform=""  font-family="Microsoft YaHei" font-size="8" />
+		<polyline points=" 440 222 440 212 457 212" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle"  transform="matrix(1.070586,0,0,0.9999996,-31.05805,0)" font-family="Microsoft YaHei" font-size="8" />
+		<line x1="433" y1="229" x2="445" y2="229" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle"  font-family="Microsoft YaHei" font-size="8"></line>
+		<line x1="435" y1="235" x2="443" y2="235" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform=""  font-family="Microsoft YaHei" font-size="8" />
+</symbol>
+          <symbol id="In1" title="In1" createDefaultConnectPoint="false" connectPoints="100 50" label="In1" appendMode="directAppend">
+<rect x="304" y="282" width="47" height="20" rx="11" ry="20" stroke="#000000" fill="#ffffff" text-color="#000000" text-anchor="center" vertical-align="middle"  font-family="Microsoft YaHei" font-size="8">
+		<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" font-size="8">1</textBlock>
+	</rect>
+</symbol> 
+<symbol id="Integrator" title="Integrator" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="Integrator" appendMode="directAppend">
+  <rect x="174" y="100" width="40" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.93,0,0,0.93,375.2149,228.6)" font-family="Microsoft YaHei" font-size="8"/>
+		<line x1="466" y1="292" x2="474.6666" y2="292" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1,0,0,1,85.7666,48.20004)"  font-family="Microsoft YaHei" font-size="8">
+			<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" vertical-align="middle" font-size="8">1
+			s</textBlock>
+		</line>
+</symbol> 
+<symbol id="LogicalOperator" title="Logical Operator" createDefaultConnectPoint="false" connectPoints="0 20 0 80 100 50" label="Logical Operator" appendMode="directAppend">
+  <rect x="174" y="100" width="40" height="40" stroke="#000000" fill="#FFFFFF">
+			<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" vertical-align="middle" font-size="8">AND</textBlock>
+</rect>
+</symbol> 
+  <symbol id="Mux" title="Mux" createDefaultConnectPoint="false" connectPoints="0 20 0 80 100 50">
+		<rect x="149" y="99" width="7" height="52" stroke="#000000" fill="#000000" font-family="Microsoft YaHei" font-size="8" />
+	</symbol>
+  <symbol id="Out1" title="Out1" createDefaultConnectPoint="false" connectPoints="0 50" label="Out1" appendMode="directAppend">
+<rect x="304" y="282" width="47" height="20" rx="11" ry="20" stroke="#000000" fill="#ffffff" text-color="#000000" text-anchor="center" vertical-align="middle"  font-family="Microsoft YaHei" font-size="8">
+		<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" font-size="8">1</textBlock>
+	</rect>
+</symbol> 
+<symbol id="Product" title="Product" createDefaultConnectPoint="false" connectPoints="0 20 0 80 100 50" label="Product">
+<rect x="174" y="100" width="41" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.9299999,0,0,0.9299999,356.1498,305.1998)" font-family="Microsoft YaHei" font-size="8"/>
+		<line x1="644" y1="504" x2="654" y2="514" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1,0,0,1,-112,-92)" />
+		<line x1="654" y1="504" x2="644" y2="514" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1,0,0,1,-112,-92)"  />
+</symbol> 
+  <symbol id="RelationalOperator" title="Relational Operator" createDefaultConnectPoint="false" connectPoints="0 20 0 80 100 50" label="Relational Operator" appendMode="directAppend">
+<rect x="174" y="100" width="40" height="40" stroke="#000000" fill="#FFFFFF">
+			<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" vertical-align="middle" font-size="8">&lt;=</textBlock>
+</rect>
+    </symbol> 
+    <symbol id="Saturation" title="Saturation" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="Saturation">
+<rect x="174" y="100" width="41" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.93,0,0,0.93,508.5193,352.1424)" font-family="Microsoft YaHei" font-size="8"/>
+		<line x1="416" y1="484" x2="430.3984" y2="484.2576" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1.42,0,0,0.9999999,88.46146,-20.25761)"  />
+		<line x1="717.933" y1="494.0937" x2="717.6754" y2="473.648" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1,0,0,1,-28.39996,-19.64829)"  />
+		<polyline points=" 679.9999 474.1176 684.1175 473.5293 695.294 454.7058 698.2351 454.7058" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" />
+    </symbol> 
+<symbol id="Scope" title="Scope" createDefaultConnectPoint="false" connectPoints="0 50" label="Scope">
+  <rect x="174" y="100" width="41" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.93,0,0,0.93,262.115,208.8571)" font-family="Microsoft YaHei" font-size="8"/>
+  <rect x="428.12" y="306.25" width="29.75" height="15.60999" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" />
+</symbol> 
+  <symbol id="SubSystem" title="SubSystem" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="SubSystem">
+    <rect x="191" y="203" width="95" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" font-family="Microsoft YaHei" font-size="8"/>
+  </symbol>
+  <symbol id="Sum" title="Sum" createDefaultConnectPoint="false" connectPoints="0 50 50 100 100 50" label="Sum">
+    <circle cx="326.195" cy="386.195" r="14.31999" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" />
+		<line x1="317.5" y1="390.625" x2="321.875" y2="390.625" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" />
+		<line x1="319.6526" y1="392.7969" x2="319.6526" y2="388.4219" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform=""  />
+		<line x1="317.5" y1="390.625" x2="321.875" y2="390.625" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.9999999,0,0,0.9999999,5.555543,3.888885)"  />
+		<line x1="319.6526" y1="392.7969" x2="319.6526" y2="388.4219" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.9999999,0,0,0.9999999,5.555543,3.888885)"  />
+	</symbol>
+<symbol id="Switch" title="Switch" createDefaultConnectPoint="false" connectPoints="0 25 0 50 0 75 100 50" label="Switch">
+    <rect x="174" y="100" width="41" height="40" stroke="#000000" fill="#FFFFFF" transform="matrix(1.1904,0,0,0.93,80.0004,-70.2)"/>
+		<g  transform="matrix(0.9999999,0,0,0.9999999,-20,-90)">
+			<line x1="307.5" y1="142.5" x2="331.25" y2="142.5" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" />
+			<rect x="373.75" y="95" width="10" height="10" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.355,0,0,0.355,195.8522,106.9687)" />
+		</g>
+		<g  transform="matrix(0.9999999,0,0,0.9999999,-20.37001,-114.2437)">
+			<line x1="307.5" y1="142.5" x2="331.25" y2="142.5" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" />
+			<rect x="373.75" y="95" width="10" height="10" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.355,0,0,0.355,195.8522,106.9687)" />
+		</g>
+		<polyline points=" 356.1905 131.9048 350.9524 131.9048 330.9524 119.0476" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.9999999,0,0,0.9999999,-20,-90)" />
+		<line x1="307.619" y1="130.9524" x2="312.8571" y2="130.9524" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.9999999,0,0,0.9999999,-20,-90)" />
+		<line x1="313.3333" y1="128.0952" x2="313.3333" y2="134.7619" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.9999999,0,0,0.9999999,-20,-90)">
+			<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei"></textBlock>
+		</line>
+		<text x="314.2857" y="130.9524" xml:space="preserve" font-family="Microsoft YaHei" font-size="8" stroke="none" fill="#000000" font-weight="normal" font-style="normal" text-decoration="normal" transform="matrix(0.9999999,0,0,0.9999999,-18.96878,-86.5375)">&gt;=0</text>
+	</symbol>
+<symbol id="Terminator" title="Terminator" createDefaultConnectPoint="false" connectPoints="0 50" label="Terminator">
+    <rect x="174" y="100" width="41" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.7680227,0,0,0.7680227,286.8988,48.19769)" font-family="Microsoft YaHei" font-size="8"/>
+		<polyline points=" 431.1111 131.1111 446.1111 131.1111 446.1111 150.5555 430.5555 150.5555" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle"  />
+		<line x1="426.1111" y1="140.5555" x2="446.6666" y2="140.5555" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle"  />
+	</symbol>
+  <symbol id="UnitDelay" title="Unit Delay" createDefaultConnectPoint="false" connectPoints="0 50 100 50" label="Unit Delay" appendMode="directAppend">
+  <rect x="174" y="100" width="40" height="40" stroke="#000000" fill="#FFFFFF" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(0.93,0,0,0.93,375.2149,228.6)" font-family="Microsoft YaHei" font-size="8"/>
+		<line x1="466" y1="292" x2="474.6666" y2="292" stroke="#000000" text-color="#000000" text-anchor="center" vertical-align="middle" transform="matrix(1,0,0,1,85.7666,48.20004)"  font-family="Microsoft YaHei" font-size="8">
+			<textBlock fill="none" stroke="none" text-anchor="center" text-color="#000000" font-family="Microsoft YaHei" vertical-align="middle" font-size="8">1
+			z</textBlock>
+		</line>
+</symbol> 
+  <symbol id="VectorConcatenate" title="Vector Concatenate" createDefaultConnectPoint="false" connectPoints="0 20 0 80 100 50" label="Vector Concatenate">
+  <rect x="150" y="100" width="5" height="50" stroke="#000000" fill="#ffffff"  />
+    <line x1="150" y1="125" x2="155" y2="125" stroke="#000000"  />
+</symbol> 
+ </group>
+</symbols>

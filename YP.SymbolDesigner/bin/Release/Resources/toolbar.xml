@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolStrip images="PerfectSVG.SymbolDesigner.Resources.Bitmap1.bmp">
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="0" title="选择" behavior="CurrentOperator" value="Transform" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="1" title="节点编辑" behavior="CurrentOperator" value="NodeEdit" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripSeparator"></item>
+  <item type="PerfectSVG.SymbolDesigner.Controls.ToolStripSplitButtonEx" imageIndex="2" title="矩形" behavior="CurrentOperator" value="Rectangle" controlbase="symboldesigner" event="Click" >
+    <dropdown type="PerfectSVG.SymbolDesigner.Controls.RectOptionControl" width="150" height="33" controlbase="symboldesigner" behavior="RadiusOfRectangle" value="Value" valuetype="property" autosize="true"/>
+  </item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="3" title="椭圆，圆形" behavior="CurrentOperator" value="Ellipse" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="4" title="直线" behavior="CurrentOperator" value="Line" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="5" title="折线" behavior="CurrentOperator" value="Polyline" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="6" title="多边形" behavior="CurrentOperator" value="Polygon" event="Click"></item>
+  <item type="PerfectSVG.SymbolDesigner.Controls.ToolStripSplitButtonEx" controlbase="symboldesigner" imageIndex="7" title="正多边形、星形" behavior="CurrentOperator" value="Star" event="Click">
+    <dropdown type="PerfectSVG.SymbolDesigner.Controls.StarOptionControl" width="150" controlbase="symboldesigner" behavior="Star" value="Value" valuetype="property" autosize="true"/>
+  </item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="8" title="扇形" behavior="CurrentOperator" value="Pie" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="9" title="扇形弧" behavior="CurrentOperator" value="Arc" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="10" title="贝塞尔曲线" behavior="CurrentOperator" value="Path" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" image="Resources/image.ico" title="插入图片" behavior="CurrentOperator" value="Image" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="12" title="插入文本" behavior="CurrentOperator" value="Text" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" image="Resources/textBlock.ico" title="插入文本块" behavior="CurrentOperator" value="TextBlock" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="14" title="连接线" behavior="CurrentOperator" value="Connection" event="Click"></item>
+  <item type="PerfectSVG.SymbolDesigner.Controls.ToolStripSplitButtonEx" controlbase="symboldesigner"  imageIndex="15" title="预定义形状" behavior="CurrentOperator" value="Shape" event="Click">
+    <dropdown type="PerfectSVG.Forms.ShapeSelector" controlbase="vectorcontrol" width="150" height="300" behavior="TemplateShape" event="SelectedChanged" value="SelectedShape" valuetype="property">
+      <param value="Resources/shape.xml"/>
+    </dropdown>
+  </item>
+  <item type="System.Windows.Forms.ToolStripSeparator"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="16" title="漫游" behavior="CurrentOperator" value="Roam" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="17" title="放大视图" behavior="CurrentOperator" value="ZoomIn" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="18" title="缩小视图" behavior="CurrentOperator" value="ZoomOut" event="Click"></item>
+  <item type="System.Windows.Forms.ToolStripSeparator"></item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" imageIndex="19" title="填充颜色">
+    <dropdown type="PerfectSVG.Forms.ListColors" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedColor" behavior="Fill" target="Color" valuetype="property" />
+  </item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" imageIndex="20" title="线条颜色">
+    <dropdown type="PerfectSVG.Forms.ListColors" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedColor" behavior="Stroke" target="Color" valuetype="property" />
+  </item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" imageIndex="21" title="线条宽度" >
+    <dropdown type="PerfectSVG.Forms.ListStrokeWidth" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedItem" behavior="Stroke" target="Width" valuetype="property" />
+  </item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" imageIndex="22" title="线条样式" behavior="Stroke" target="DashPattern">
+    <dropdown type="PerfectSVG.Forms.ListStrokeStyle" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedStyle" behavior="Stroke" target="DashPattern" valuetype="property" />
+  </item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" imageIndex="23" title="开始箭头" >
+    <dropdown type="PerfectSVG.Forms.ArrowSelector" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedItem" behavior="StartArrow" valuetype="property"/>
+  </item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" imageIndex="24" title="结束箭头">
+    <dropdown type="PerfectSVG.Forms.ArrowSelector" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedItem" behavior="EndArrow" valuetype="property">
+      <property name="EndArrow" value="true"/>
+    </dropdown>
+  </item>
+  <item type="System.Windows.Forms.ToolStripSeparator"></item>
+  <item type="PerfectSVG.SymbolDesigner.Controls.ToolStripFontNameComboBox" controlbase="symboldesigner" width="150" event="TextChanged" value="Text" behavior="TextStyle" target="FontName" valuetype="property" >
+  </item>
+  <item type="PerfectSVG.SymbolDesigner.Controls.ToolStripFontSizeComboBox" controlbase="symboldesigner" width="20" event="TextChanged" value="SelectedValue" behavior="TextStyle" target="Size" valuetype="property" ></item>
+  <item type="System.Windows.Forms.ToolStripButton" checkonclick="true" imageIndex="25" title="粗体文本" behavior="TextStyle" target="Bold" event="CheckedChanged" value="Checked" valuetype="property"  ></item>
+  <item type="System.Windows.Forms.ToolStripButton" checkonclick="true" imageIndex="26" title="斜体文本" behavior="TextStyle" target="Italic" event="CheckedChanged" value="Checked" valuetype="property" ></item>
+  <item type="System.Windows.Forms.ToolStripButton" checkonclick="true" imageIndex="27" title="下划线" behavior="TextStyle" target="Underline" event="CheckedChanged" value="Checked" valuetype="property" ></item>
+  <item type="System.Windows.Forms.ToolStripDropDownButton" image="Resources/textColor.ico" title="文本块颜色">
+    <dropdown type="PerfectSVG.Forms.ListColors" controlbase="vectorcontrol" width="150" event="SelectedIndexChanged" value="SelectedColor" behavior="TextBlockStyle" target="TextColor" valuetype="property" />
+  </item>
+  <item type="System.Windows.Forms.ToolStripSeparator"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="30" title="文本块左对齐" behavior="TextBlockStyle" target="Alignment" value="Left" event="Click" valuetype="const" controlproperty="Checked"></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="31" title="文本块居中对齐" behavior="TextBlockStyle" target="Alignment" value="Center" event="Click" valuetype="const" controlproperty="Checked" ></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="32" title="文本块右对齐" behavior="TextBlockStyle" target="Alignment" value="Right" event="Click" valuetype="const" controlproperty="Checked" ></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="33" title="文本块顶端对齐" behavior="TextBlockStyle" target="VerticalAlignment" value="Top" event="Click" valuetype="const" controlproperty="Checked" ></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="34" title="文本块中部对齐" behavior="TextBlockStyle" target="VerticalAlignment" value="Middle" event="Click" valuetype="const" controlproperty="Checked" ></item>
+  <item type="System.Windows.Forms.ToolStripButton" imageIndex="35" title="文本块底端对齐" behavior="TextBlockStyle" target="VerticalAlignment" value="Bottom" event="Click" valuetype="const" controlproperty="Checked" ></item>
+  <item type="System.Windows.Forms.ToolStripSeparator"></item>
+  <item type="PerfectSVG.SymbolDesigner.Controls.ToolStripScaleRatioComboBox" controlbase="symboldesigner" width="20" behavior="ScaleRatio" event="TextChanged" value="Value" valuetype="property"></item>
+</toolStrip>

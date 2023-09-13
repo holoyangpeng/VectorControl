@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{593D6D89-4BF7-4FF0-A6E4-EDF328FA5C04}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YP.CommonControl</RootNamespace>
+    <AssemblyName>YP.CommonControl</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\BaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\BaseControl.Designer.cs">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CollectionWithEvents.cs" />
+    <Compile Include="Common\PopupButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\ResourceHelper.cs" />
+    <Compile Include="Dock\AutoHidePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dock\AutoHideRecorder.cs" />
+    <Compile Include="Dock\BaseRecorder.cs" />
+    <Compile Include="Dock\BorderPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dock\Content.cs" />
+    <Compile Include="Dock\ContentCollection.cs" />
+    <Compile Include="Dock\ContentRecorder.cs" />
+    <Compile Include="Dock\Group.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dock\GroupCollection.cs" />
+    <Compile Include="Dock\IGroupContainer.cs" />
+    <Compile Include="Dock\LayoutControl.cs" />
+    <Compile Include="Dock\LayoutManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dock\SplitContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dock\ToolDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dock\Zone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dock\ZoneCollection.cs" />
+    <Compile Include="Menu\CommandCollectionHelper.cs" />
+    <Compile Include="Menu\DropDownHolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\IItemsContainer.cs" />
+    <Compile Include="Menu\IUpdateable.cs" />
+    <Compile Include="Menu\MenuCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuItemFactory.cs" />
+    <Compile Include="Menu\MenuItemSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menu\PopupMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Menu\Service.cs" />
+    <Compile Include="Menu\ShortCutHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ResourceManager.cs" />
+    <Compile Include="StatusBar\StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TabControl\Interface\ITabControl.cs" />
+    <Compile Include="TabControl\Interface\ITabPage.cs" />
+    <Compile Include="TabControl\Interface\ITagPageCollection.cs" />
+    <Compile Include="TabControl\TabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabControl\TabForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabControl\TabPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabControl\TabPageCollection.cs" />
+    <Compile Include="Win32\Enum.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dock\LayoutManager.resx">
+      <DependentUpon>LayoutManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dock\ToolDialog.resx">
+      <DependentUpon>ToolDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\DropDownHolder.resx">
+      <DependentUpon>DropDownHolder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuCommand.resx">
+      <DependentUpon>MenuCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\MenuControl.resx">
+      <DependentUpon>MenuControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControl\TabControl.resx">
+      <DependentUpon>TabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControl\TabForm.resx">
+      <DependentUpon>TabForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControl\TabPage.resx">
+      <DependentUpon>TabPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Menu\MenuControl.bmp" />
+    <EmbeddedResource Include="Common\PopupButton.resx">
+      <DependentUpon>PopupButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ImagesCaptionIDE.bmp" />
+    <EmbeddedResource Include="Resources\ImagesCaptionPlain.bmp" />
+    <EmbeddedResource Include="Resources\ImagesMenuControl.bmp" />
+    <EmbeddedResource Include="Resources\ImagesPopupMenu.bmp" />
+    <EmbeddedResource Include="Resources\ImagesTabControl.bmp" />
+    <EmbeddedResource Include="Resources\TabbedInvalid.cur" />
+    <EmbeddedResource Include="Resources\TabbedValid.cur" />
+    <EmbeddedResource Include="Resources\WizardPicture.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

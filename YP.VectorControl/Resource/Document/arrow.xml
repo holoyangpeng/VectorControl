@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+
+<markerset>
+  <marker overflow="visible"  id="arrow1" fill="#000000" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1 -1 L 0 0 L 1 1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow2" fillShadow="true" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+
+    <path stroke-width="0.22" d="M 2 1 L 0 0 L 2 -1 L 2 1 " transform="scale(4.5) "/>
+
+  </marker>
+  <marker overflow="visible"  id="arrow3" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2 1 L 0 0 L 2 -1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow4" fillShadow="true" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1 1 L 0 0 L 1 -1 L 1 1 " transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow5" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 0.75 C -0.414214 0.75 -0.75 0.414214 -0.75 0 -0.75 -0.414214 -0.414214 -0.75 0 -0.75 0.414214 -0.75 0.75 -0.414214 0.75 0 0.75 0.414214 0.414214 0.75 0 0.75 Z " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5)  translate(0.75 0) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow6" fill="#000000" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 -0.75 L 1.5 0 L 0 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow7" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1.5 -0.75 L 1.5 0.75 M 2.25 -0.75 L 2.25 0.75 M 3 -0.75 L 3 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow8" fill="#000000" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1.5 -0.75 L 1.5 0.75 M 2.25 -0.75 L 2.25 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow9" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1.5 -0.75 L 1.5 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow10" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2.5 1 L 1.5 -1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow11" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 0 L 2.25 -1.125 L 4.5 0 L 2.25 1.125 L 0 0 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow12" fill="#000000" orient="auto"	markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0.75 -0.75 L 0.75 0.75 L -0.75 0.75 L -0.75 -0.75 L 0.75 -0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5)  translate(0.75 0) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow13" fill="#000000"  orient="auto"	markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0.75 0.75 C 0.335786 0.75 0 0.414214 0 0 0 -0.414214 0.335786 -0.75 0.75 -0.75 1.16421 -0.75 1.5 -0.414214 1.5 0 1.5 0.414214 1.16421 0.75 0.75 0.75 Z M 2.25 -0.75 L 2.25 0.75 M 3 -0.75 L 3 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow14" fill="#000000" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2 -1 L 0 0 L 2 1 M 3 0.75 L 3 -0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow15" fill="#000000" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2 -1 L 0 0 L 2 1 M 4 -1 L 2 0 L 4 1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+
+  <marker overflow="visible"  id="arrow16" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 0 L 2 -1 L 2 1 L 0 0 M 2 0 L 4 -1 L 4 1 L 2 0 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow17" fillShadow="true" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 0 L 2 -1 L 2 1 L 0 0 M 2 0 L 4 -1 L 4 1 L 2 0 " transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow18" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0.75 0.75 C 0.335786 0.75 0 0.414214 0 0 0 -0.414214 0.335786 -0.75 0.75 -0.75 1.16421 -0.75 1.5 -0.414214 1.5 0 1.5 0.414214 1.16421 0.75 0.75 0.75 Z M 1.5 0 L 3.75 -1.15 L 6 0 L 3.75 1.15 L 1.5 0 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow19" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0.75 0.75 C 0.335786 0.75 0 0.414214 0 0 0 -0.414214 0.335786 -0.75 0.75 -0.75 1.16421 -0.75 1.5 -0.414214 1.5 0 1.5 0.414214 1.16421 0.75 0.75 0.75 Z M 2.25 -0.75 L 2.25 0.75 M 3 -0.75 L 3 0.75 M 3.75 -0.75 L 3.75 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow20" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1 -1 L -1 1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow21" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 0 L 2 -1 L 2 1 L 0 0 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow22" fill="#000000"  orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 1 -1 L 0 0 L 1 1 L 1 -1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow23" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 3 -1 L 0 0 L 3 1 L 3 -1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow24" fillShadow="true" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 3 1 L 0 0 L 3 -1 L 3 1 " transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow25" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 3 1 L 0 0 L 3 -1 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow26" fillShadow="true" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0.75 -0.75 L 0.75 0.75 L -0.75 0.75 L -0.75 -0.75 L 0.75 -0.75 " transform="scale(4.5)  translate(0.75 0) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow27" fillShadow="true" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 0.75 C -0.414214 0.75 -0.75 0.414214 -0.75 0 -0.75 -0.414214 -0.414214 -0.75 0 -0.75 0.414214 -0.75 0.75 -0.414214 0.75 0 0.75 0.414214 0.414214 0.75 0 0.75 Z " transform="scale(4.5) translate(0.75 0) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow28" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0 -0.75 L 1.5 0 L 0 0.75 M 2 -0.75 L 2 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow29" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 0.75 0.75 C 0.335786 0.75 0 0.414214 0 0 0 -0.414214 0.335786 -0.75 0.75 -0.75 1.16421 -0.75 1.5 -0.414214 1.5 0 1.5 0.414214 1.16421 0.75 0.75 0.75 Z M 2.25 -0.75 L 2.25 0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow30" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2.25 0.75 C 1.83579 0.75 1.5 0.414214 1.5 0 1.5 -0.414214 1.83579 -0.75 2.25 -0.75 2.66421 -0.75 3 -0.414214 3 0 3 0.414214 2.66421 0.75 2.25 0.75 Z M 0.75 -0.75 L 0.75 0.75 M 1.5 0 L 0 0 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow31" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2.25 0.75 C 1.83579 0.75 1.5 0.414214 1.5 0 1.5 -0.414214 1.83579 -0.75 2.25 -0.75 2.66421 -0.75 3 -0.414214 3 0 3 0.414214 2.66421 0.75 2.25 0.75 Z M 0 -0.75 L 1.5 0 L 0 0.75 M 1.5 0 L 0 0 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+  <marker overflow="visible"  id="arrow32" fill="#000000" orient="auto" markerUnits="strokeWidth">
+    <path stroke-width="0.22" d="M 2 -1 L 0 0 L 2 1 M 4 -1 L 2 0 L 4 1 M 5 0.75 L 5 -0.75 " stroke-linecap="round" stroke-linejoin="round" fill="none" transform="scale(4.5) "/>
+  </marker>
+</markerset>

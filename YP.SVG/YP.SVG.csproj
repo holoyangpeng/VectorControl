@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D72A7356-387B-4549-ADE9-1AF15C76A82A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YP.SVG</RootNamespace>
+    <AssemblyName>YP.SVG</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicShapes\SVGCircleElement.cs" />
+    <Compile Include="BasicShapes\SVGConnect.cs" />
+    <Compile Include="BasicShapes\SVGConnectionBranchElement.cs" />
+    <Compile Include="BasicShapes\SVGEllipseElement.cs" />
+    <Compile Include="BasicShapes\SVGLineElement.cs" />
+    <Compile Include="BasicShapes\SVGPointsElement.cs" />
+    <Compile Include="BasicShapes\SVGPolygonElement.cs" />
+    <Compile Include="BasicShapes\SVGPolylineElement.cs" />
+    <Compile Include="BasicShapes\SVGRectElement.cs" />
+    <Compile Include="Cache\RenderCache.cs" />
+    <Compile Include="Cache\SVGSVGElementCache.cs" />
+    <Compile Include="Cache\TextCache.cs" />
+    <Compile Include="ClipAndMask\SVGClipElement.cs" />
+    <Compile Include="ClipAndMask\SVGMarkerElement.cs" />
+    <Compile Include="ColorHelper.cs" />
+    <Compile Include="Common\ImageHelper.cs" />
+    <Compile Include="Common\OperatorHelper.cs" />
+    <Compile Include="DataType\CTS\SVGMatrix.cs" />
+    <Compile Include="DataType\CTS\SVGPoint.cs" />
+    <Compile Include="DataType\CTS\SVGPointList.cs" />
+    <Compile Include="DataType\CTS\SVGPointListList.cs" />
+    <Compile Include="DataType\CTS\SVGTransform.cs" />
+    <Compile Include="DataType\CTS\SVGTransformList.cs" />
+    <Compile Include="DataType\CTS\SVGTransformListList.cs" />
+    <Compile Include="DataType\RGBColor.cs" />
+    <Compile Include="DataType\SVGAngle.cs" />
+    <Compile Include="DataType\SVGColor.cs" />
+    <Compile Include="DataType\SVGLength.cs" />
+    <Compile Include="DataType\SVGLengthList.cs" />
+    <Compile Include="DataType\SVGLengthListList.cs" />
+    <Compile Include="DataType\SVGNumber.cs" />
+    <Compile Include="DataType\SVGNumberList.cs" />
+    <Compile Include="DataType\SVGNumberListList.cs" />
+    <Compile Include="DataType\SVGPreserveAspectRatio.cs" />
+    <Compile Include="DataType\SVGRect.cs" />
+    <Compile Include="DataType\SVGString.cs" />
+    <Compile Include="DataType\SVGStringList.cs" />
+    <Compile Include="DataType\SVGType.cs" />
+    <Compile Include="DataType\SVGTypeList.cs" />
+    <Compile Include="DataType\SVGViewport.cs" />
+    <Compile Include="DocumentStructure\SVGElementInstance.cs" />
+    <Compile Include="DocumentStructure\SVGElementInstanceList.cs" />
+    <Compile Include="DocumentStructure\SVGGElement.cs" />
+    <Compile Include="DocumentStructure\SVGImageElement.cs" />
+    <Compile Include="DocumentStructure\SVGStyleElement.cs" />
+    <Compile Include="DocumentStructure\SVGSVGElement.cs" />
+    <Compile Include="DocumentStructure\SVGSymbolElement.cs" />
+    <Compile Include="DocumentStructure\SVGUseElement.cs" />
+    <Compile Include="Document\ISVGDocument.cs" />
+    <Compile Include="Document\ISVGRenderDocument.cs" />
+    <Compile Include="Document\StreamHelper.cs" />
+    <Compile Include="Document\SvgDocument.cs" />
+    <Compile Include="Document\SvgDocumentFactory.cs" />
+    <Compile Include="Enum.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="GradientsAndPatterns\SVGGradientElement.cs" />
+    <Compile Include="GradientsAndPatterns\SVGLinearGradientElement.cs" />
+    <Compile Include="GradientsAndPatterns\SVGPaintTransformElement.cs" />
+    <Compile Include="GradientsAndPatterns\SVGPatternElement.cs" />
+    <Compile Include="GradientsAndPatterns\SVGRadialGradientElement.cs" />
+    <Compile Include="GradientsAndPatterns\SVGStopElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGBasicShape.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGBranchElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGCircleElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGConnect.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGConnectionEelement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGEllipseElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGLineElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGPolygonElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGPolylineElement.cs" />
+    <Compile Include="Interface\BasicShapes\ISVGRectElement.cs" />
+    <Compile Include="Interface\ClipAndMask\ISVGClipPathElement.cs" />
+    <Compile Include="Interface\ClipAndMask\ISVGMaskElement.cs" />
+    <Compile Include="Interface\Coordinate Systems Transformations and Units\ISVGMatrix.cs" />
+    <Compile Include="Interface\Coordinate Systems Transformations and Units\ISVGPoint.cs" />
+    <Compile Include="Interface\Coordinate Systems Transformations and Units\ISVGPointList.cs" />
+    <Compile Include="Interface\Coordinate Systems Transformations and Units\ISVGPreserveAspectRatio.cs" />
+    <Compile Include="Interface\Coordinate Systems Transformations and Units\ISVGTransform.cs" />
+    <Compile Include="Interface\Coordinate Systems Transformations and Units\ISVGTransformList.cs" />
+    <Compile Include="Interface\DataType\IRgbColor.cs" />
+    <Compile Include="Interface\DataType\ISVGAngle.cs" />
+    <Compile Include="Interface\DataType\ISVGColor.cs" />
+    <Compile Include="Interface\DataType\ISVGIccColor.cs" />
+    <Compile Include="Interface\DataType\ISVGLength.cs" />
+    <Compile Include="Interface\DataType\ISVGLengthList.cs" />
+    <Compile Include="Interface\DataType\ISVGNumber.cs" />
+    <Compile Include="Interface\DataType\ISVGNumberList.cs" />
+    <Compile Include="Interface\DataType\ISVGRect.cs" />
+    <Compile Include="Interface\DataType\ISVGString.cs" />
+    <Compile Include="Interface\DataType\ISVGStringList.cs" />
+    <Compile Include="Interface\DataType\ISVGTime.cs" />
+    <Compile Include="Interface\DataType\ISVGType.cs" />
+    <Compile Include="Interface\DataType\ISVGTypeList.cs" />
+    <Compile Include="Interface\DocumentStructure\IGetSVGDocument.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGDefsElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGDescElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGElementInstance.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGElementInstanceList.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGGElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGImageElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGStyleElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGSVGElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGSwitchElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGSymbolElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGTitleElement.cs" />
+    <Compile Include="Interface\DocumentStructure\ISVGUseElement.cs" />
+    <Compile Include="Interface\GradientsAndPatterns\ISVGGradientElement.cs" />
+    <Compile Include="Interface\GradientsAndPatterns\ISVGLinearGradientElement.cs" />
+    <Compile Include="Interface\GradientsAndPatterns\ISVGPaintTransform.cs" />
+    <Compile Include="Interface\GradientsAndPatterns\ISVGPatternElement.cs" />
+    <Compile Include="Interface\GradientsAndPatterns\ISVGRadialGradientElement.cs" />
+    <Compile Include="Interface\GradientsAndPatterns\ISVGStopElement.cs" />
+    <Compile Include="Interface\IBarPath.cs" />
+    <Compile Include="Interface\IElementCollection.cs" />
+    <Compile Include="Interface\ILineElement.cs" />
+    <Compile Include="Interface\IShadowEffect.cs" />
+    <Compile Include="Interface\ISVGBoundElement.cs" />
+    <Compile Include="Interface\ISVGContainer.cs" />
+    <Compile Include="Interface\ISVGDirectRender.cs" />
+    <Compile Include="Interface\ISVGElement.cs" />
+    <Compile Include="Interface\ISVGExternalResourcesRequired.cs" />
+    <Compile Include="Interface\ISVGFitToViewBox.cs" />
+    <Compile Include="Interface\ISVGLangSpace.cs" />
+    <Compile Include="Interface\ISVGLocatable.cs" />
+    <Compile Include="Interface\ISVGMarkerElement.cs" />
+    <Compile Include="Interface\ISVGPathElement.cs" />
+    <Compile Include="Interface\ISVGPathListElement.cs" />
+    <Compile Include="Interface\ISVGRenderable.cs" />
+    <Compile Include="Interface\ISVGStylable.cs" />
+    <Compile Include="Interface\ISVGTests.cs" />
+    <Compile Include="Interface\ISVGTransformable.cs" />
+    <Compile Include="Interface\ISVGURIReference.cs" />
+    <Compile Include="Interface\ISVGViewPort.cs" />
+    <Compile Include="Interface\ISVGViewSpec.cs" />
+    <Compile Include="Interface\ISVGZoomAndPan.cs" />
+    <Compile Include="Interface\IUndoOperator.cs" />
+    <Compile Include="Interface\Link\ISVGAElement.cs" />
+    <Compile Include="Interface\Link\ISVGViewElement.cs" />
+    <Compile Include="Interface\Paint\ISVGBrush.cs" />
+    <Compile Include="Interface\Paint\ISVGMarkerElement.cs" />
+    <Compile Include="Interface\Paint\ISVGPaint.cs" />
+    <Compile Include="Interface\Paint\ISVGPaintList.cs" />
+    <Compile Include="Interface\Paths\ISVGPathElement.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSeg.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegArcAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegArcRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegClosePath.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCubic.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoCubicAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoCubicRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoCubicSmoothAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoCubicSmoothRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoQuadraticAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoQuadraticRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoQuadraticSmoothAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegCurvetoQuadraticSmoothRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegLinetoAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegLinetoHorizontalAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegLinetoHorizontalRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegLinetoRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegLinetoVerticalAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegLinetoVerticalRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegList.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegMovetoAbs.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegMovetoRel.cs" />
+    <Compile Include="Interface\Paths\ISVGPathSegQuadratic.cs" />
+    <Compile Include="Interface\Text\ISVGAltGlyphDefElement.cs" />
+    <Compile Include="Interface\Text\ISVGAltGlyphElement.cs" />
+    <Compile Include="Interface\Text\ISVGAltGlyphItemElement.cs" />
+    <Compile Include="Interface\Text\ISVGGlyphRefElement.cs" />
+    <Compile Include="Interface\Text\ISVGLayoutTextElement.cs" />
+    <Compile Include="Interface\Text\ISVGTextBlockElement.cs" />
+    <Compile Include="Interface\Text\ISVGTextContentElement.cs" />
+    <Compile Include="Interface\Text\ISVGTextElement.cs" />
+    <Compile Include="Interface\Text\ISVGTextPathElement.cs" />
+    <Compile Include="Interface\Text\ISVGTextPositioningElement.cs" />
+    <Compile Include="Interface\Text\ISVGTRefElement.cs" />
+    <Compile Include="Interface\Text\ISVGTSpanElement.cs" />
+    <Compile Include="Interface\Text\ITextElement.cs" />
+    <Compile Include="Paint\SVGPaint.cs" />
+    <Compile Include="Paint\SVGPaintList.cs" />
+    <Compile Include="PathHelper.cs" />
+    <Compile Include="Paths\CalculateLength.cs" />
+    <Compile Include="Paths\SVGPathElement.cs" />
+    <Compile Include="Paths\SVGPathSeg.cs" />
+    <Compile Include="Paths\SVGPathSegArc.cs" />
+    <Compile Include="Paths\SVGPathSegArcAbs.cs" />
+    <Compile Include="Paths\SVGPathSegArcRel.cs" />
+    <Compile Include="Paths\SVGPathSegClosePath.cs" />
+    <Compile Include="Paths\SVGPathSegCurve.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoCubicAbs.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoCubicRel.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoCubicSmoothAbs.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoCubicSmoothRel.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoQuadraticAbs.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoQuadraticRel.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoQuadraticSmoothAbs.cs" />
+    <Compile Include="Paths\SVGPathSegCurvetoQuadraticSmoothRel.cs" />
+    <Compile Include="Paths\SVGPathSegLine.cs" />
+    <Compile Include="Paths\SVGPathSegLinetoAbs.cs" />
+    <Compile Include="Paths\SVGPathSegLinetoHorizontalAbs.cs" />
+    <Compile Include="Paths\SVGPathSegLinetoHorizontaRel.cs" />
+    <Compile Include="Paths\SVGPathSegLinetoRel.cs" />
+    <Compile Include="Paths\SVGPathSegLinetoVerticalAbs.cs" />
+    <Compile Include="Paths\SVGPathSegLinetoVerticalRel.cs" />
+    <Compile Include="Paths\SVGPathSegList.cs" />
+    <Compile Include="Paths\SVGPathSegListList.cs" />
+    <Compile Include="Paths\SVGPathSegMove.cs" />
+    <Compile Include="Paths\SVGPathSegMovetoAbs.cs" />
+    <Compile Include="Paths\SVGPathSegMovetoRel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property\CustomProperty.cs" />
+    <Compile Include="Property\CustomPropertyCollection.cs" />
+    <Compile Include="Property\CustomPropertyDescriptor.cs" />
+    <Compile Include="Property\IProperty.cs" />
+    <Compile Include="Property\IPropertyGenerator.cs" />
+    <Compile Include="Property\PropertyBase.cs" />
+    <Compile Include="Render\SVGBaseRenderer.cs" />
+    <Compile Include="Render\SVGConnectionRenderer.cs" />
+    <Compile Include="Render\SVGDirectRenderer.cs" />
+    <Compile Include="Render\SVGGroupRenderer.cs" />
+    <Compile Include="Render\SVGImageRenderer.cs" />
+    <Compile Include="Render\SVGSVGRenderer.cs" />
+    <Compile Include="Render\SVGTextBlockRender.cs" />
+    <Compile Include="Render\SVGTextRenderer.cs" />
+    <Compile Include="Render\SVGUseRenderer.cs" />
+    <Compile Include="Struct.cs" />
+    <Compile Include="StyleContainer\StyleContainer.cs" />
+    <Compile Include="StyleContainer\StyleOperator.cs" />
+    <Compile Include="StyleContainer\Style\ClipStyle.cs" />
+    <Compile Include="StyleContainer\Style\ColorAndPaintStyle.cs" />
+    <Compile Include="StyleContainer\Style\FillStyle.cs" />
+    <Compile Include="StyleContainer\Style\FontStyle.cs" />
+    <Compile Include="StyleContainer\Style\ShadowStyle.cs" />
+    <Compile Include="StyleContainer\Style\StrokeStyle.cs" />
+    <Compile Include="StyleContainer\Style\TextStyle.cs" />
+    <Compile Include="StyleContainer\Style\VisualStyle.cs" />
+    <Compile Include="StyleContainer\TypeMultiply.cs" />
+    <Compile Include="SVGAttribute.cs" />
+    <Compile Include="SVGContainerElement.cs" />
+    <Compile Include="SVGElement.cs" />
+    <Compile Include="SVGElementCollection.cs" />
+    <Compile Include="SVGException.cs" />
+    <Compile Include="SVGLocatableElement.cs" />
+    <Compile Include="SVGStyleable.cs" />
+    <Compile Include="SVGTextNode.cs" />
+    <Compile Include="SVGTransformableElement.cs" />
+    <Compile Include="Text\InfoUndoOperation.cs" />
+    <Compile Include="Text\SVGTextBlockElement.cs" />
+    <Compile Include="Text\SVGTextContentElement.cs" />
+    <Compile Include="Text\SVGTextElement.cs" />
+    <Compile Include="Text\SVGTextPositionElement.cs" />
+    <Compile Include="Text\SVGTRefElement.cs" />
+    <Compile Include="Text\SVGTSpanElement.cs" />
+    <Compile Include="Text\TextContentInfo.cs" />
+    <Compile Include="Text\TextUndoOperation.cs" />
+    <Compile Include="UndoCollection.cs" />
+    <Compile Include="UndoStack.cs" />
+    <Compile Include="Undo\InnerTextUndoOperation.cs" />
+    <Compile Include="Undo\NodeUndoOperation.cs" />
+    <Compile Include="Vector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YP.CSS\YP.CSS.csproj">
+      <Project>{9a5f28bc-54f6-44ff-b84a-49d58313a9e7}</Project>
+      <Name>YP.CSS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
