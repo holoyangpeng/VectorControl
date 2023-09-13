@@ -1,0 +1,5 @@
+D:\code\VectorControl-git\VectorControl\YP.CSS\bin\Debug\YP.CSS.dll
+D:\code\VectorControl-git\VectorControl\YP.CSS\bin\Debug\YP.CSS.pdb
+D:\code\VectorControl-git\VectorControl\YP.CSS\obj\Debug\YP.CSS.csprojResolveAssemblyReference.cache
+D:\code\VectorControl-git\VectorControl\YP.CSS\obj\Debug\YP.CSS.dll
+D:\code\VectorControl-git\VectorControl\YP.CSS\obj\Debug\YP.CSS.pdb
